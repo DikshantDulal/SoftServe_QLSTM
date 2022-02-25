@@ -18,4 +18,6 @@ For more in depth view of how we collected the data, please look at the notebook
 - <b> Factory.py </b>: Has the main classes used for <b> Stock Prediction Draft 2 </b>, including the LSTM and QLSTM classes.
 - <b> helper.py </b>: Has useful functions for data collection
 - <b> dataset_MRK_prediction.csv </b>: Main csv used for the <b> Stock Prediction Draft 2 </b>
+- <b> MRK.csv </b>: MRK data, used in <b> Data Collection </b>
+- Other files are just images used in descriptions in <b> Stock Prediction Draft 2 </b>
 
