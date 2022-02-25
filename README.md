@@ -13,6 +13,8 @@ For the implementation of QLSTM and its comparison to the classical LSTM, please
 
 For more in depth view of our data collection process, please refer to the notebook <b> Data Collection </b>. It lists our data collection decisions that provided us a relevant csv file to train the QLSTM and LSTM for the above submission.
 
+Disclaimer: As of right now, we are testing QLSTM on the Pennylane simulator, but the technique is technology agnostic and can work on any gate based device, be it IBM's Qiskit or AWS Braket's gate based devices. We are planning to test its viability on NISQ era devices soon. 
+
 ## Outline of GitHub
 
 - <b> Stock Prediction Draft 3 </b>: Main notebook for this GitHub. Provides a proof of concept that QLSTM can be used to great effect for stock prices forecasting for MRK, and compares it to the classical counterpart while also performing the complexity analysis.
